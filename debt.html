@@ -1,0 +1,161 @@
+<head>
+<style>
+  h1 {text-align: center;}
+	p {text-align: center;}
+  body {
+    font-family: "Courier New", Helvetica, sans-serif;
+	
+  }
+   
+   @keyframes fade-out {
+         from {
+            opacity: 1;
+         }
+         to {
+            opacity: 0;
+         }
+      }
+      .fade-out {
+       animation: fade-out 3s;
+      }
+  
+  .fade-inandout {
+  animation: fadeInandout ease 15s;
+  -webkit-animation: fadeInandout ease 15s;
+  -moz-animation: fadeInandout ease 15s;
+  -o-animation: fadeInandout ease 15s;
+  -ms-animation: fadeInandout ease 15s;
+}
+@keyframes fadeInandout {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;}
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeInandout {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;}
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeInandout {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;}
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeInandout {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;}
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeInandout {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+}
+  100% {
+    opacity:0;
+  }
+}   
+  
+  .fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}  
+
+ </style>
+ 
+ <body style="background-color:red;">
+  <center>
+  <br>
+  <br>
+          <h3 id="text1" class="fade-inandout">Was that the right choice? Looks like you’ve spent another $600,000. </h3>
+          
+         <h3 id="text2" class="fade-inandout">Now that you have made all these decisions regarding your business, let’s take a look at how much it will cost you.</h3>
+<br>
+<div class="fade-inandout">
+<h1 id="cost">Total cost accumulation: $4,000,000!</h1>
+</p><br>
+ 
+ <script>
+setTimeout(function() {
+document.getElementById("cost").innerHTML = "<h11 class='fade-in' style='font-size:15px;'>$4,000,000. The amount of debt you have accumulated in just minutes of making business decisions. Your company, Oberweis, is now forced to file for Chapter 11 bankruptcy protection, leaving your once-loyal customers in shock and searching for a new ice cream haven. The North Aurora plant, the location closest to you, is scheduled to close soon. Because of your rash decisions, 127 workers will be left with no choice but to find another employer. Your status as the heir of the Oberweis empire and novice politician is dwindling down the drain.<br><br>Now that your position (and company) are nearly gone, let’s take a look back at where it all started. In 1927, Peter J. Oberweis became a co-owner of a dairy company, Big Wood Dairy, despite his modest beginning of selling milk out of a carriage. This later helped him establish Oberweis as the sole owner. In 1951, the first Oberweis store opened and hundreds of customers showed support for the extensive menu offerings.<br><br>You, Joe Oberweis, took over the company in 2007, and unfortunately, you couldn’t handle it. Through poor management and business choices that were too costly without bringing in enough customers, you drove Oberweis into bankruptcy with a $4 million debt.</h11>";
+document.getElementById("text1").innerHTML = "";
+document.getElementById("text2").innerHTML = "";
+}, 14990);
+</script>
+ 
+ 
+ </div>
+ </body>
+ </head>
